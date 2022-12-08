@@ -1,13 +1,34 @@
-﻿
+﻿#region Math
+
+//Console.WriteLine(Math.Ceiling(2.1));//3
+//Console.WriteLine(Math.Ceiling(2.4));//3
+//Console.WriteLine(Math.Ceiling(2.5));//3
+//Console.WriteLine(Math.Ceiling(2.9));//3
+
+
+//Console.WriteLine(Math.Floor(2.1));//2
+//Console.WriteLine(Math.Floor(2.4));//2
+//Console.WriteLine(Math.Floor(2.5));//2
+//Console.WriteLine(Math.Floor(2.9));//2
 
 
 
+//Console.WriteLine(Math.Pow(2,3));// 2 ^ 3=8
+//Console.WriteLine(Math.Sqrt(9)); // 9 ^ 0.5=3
+
+//Console.WriteLine(Math.Sin(30*(Math.PI/180)));
+//Console.WriteLine(Math.Cos(30*(Math.PI/180)));
+//Console.WriteLine(Math.Tan(45*(Math.PI/180)));
+
+
+//Console.WriteLine(Math.Abs(-1));//1
+//Console.WriteLine(Math.Max(5,9));//9
+//Console.WriteLine(Math.Min (5,9));//5
+//Console.WriteLine(Math.PI );//3.141592653589793
 
 
 
-
-
-
+#endregion
 #region LOOOOP
 
 // for
