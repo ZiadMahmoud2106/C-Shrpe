@@ -16,18 +16,15 @@
 //Console.WriteLine("Div" + Div);
 
 #endregion
+#region Console.Write
 
+//int x = 5;
+//int y = 50;
 
-
-
-
-
-
-
-
-
-
-
+//Console.WriteLine("{0},{1}",x,y);
+//Console.WriteLine($"{x},{y}");
+//Console.WriteLine(x+","+y);
+#endregion
 #region If Math.Max
 
 //Console.Write("Enter Number 1 : ");
@@ -115,6 +112,13 @@
 
 //char z1 = dd[3];
 //Console.WriteLine(z1);
+
+
+//Console.WriteLine((char)(z + i + a + d));
+
+//Console.WriteLine((char)(a-32));
+//Console.WriteLine(z);
+
 
 
 
