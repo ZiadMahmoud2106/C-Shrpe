@@ -1,4 +1,86 @@
-﻿#region Double
+﻿
+
+
+
+
+
+
+
+
+
+#region LOOOOP
+
+// for
+// While
+// do while
+// foreach
+
+
+//01234
+//string x = Console.ReadLine();
+
+//for (int i = 0; i <x.Length ; i+=1)
+//	Console.WriteLine(x[i]);
+
+//Console.WriteLine(11);
+
+
+
+//string x = Console.ReadLine();  
+//foreach (int x1 in x)
+//	Console.Write((char)(x1-32));
+
+
+
+//for (int i = 1; i <= 6; i+=1)
+//	Console.WriteLine(i);
+
+//int i = 10;
+//do
+//{
+//	Console.WriteLine(1);
+//	i--;
+//} while (i>5);
+
+
+//int i = 1;
+//while (i == 6)
+//{
+//	Console.WriteLine(i);
+//	i += 1;
+//}
+
+
+//int x = 5;
+//Console.WriteLine(x=x+1); // x=x+1  ==> x++ ==> x+=1
+
+
+#endregion
+#region Switch
+//Console.Write("enter number : ");
+//byte numofday = byte.Parse(Console.ReadLine());
+//switch (numofday)
+//{
+//	case 1: Console.WriteLine("1"); break;
+//	case 2: Console.WriteLine("2"); break;
+//	case 3: Console.WriteLine("3"); break;
+//	case 4: Console.WriteLine("4"); break;
+//	case 5: Console.WriteLine("5"); break;
+//	case 6: Console.WriteLine("6"); break;
+//	case 7: Console.WriteLine("7"); break;
+//	default: Console.WriteLine("enter invaild number !!!!"); break;
+//}
+
+//if (numofday == 1) Console.WriteLine(1);
+//else if (numofday == 2) Console.WriteLine(2);
+//else if (numofday == 3) Console.WriteLine(3);
+//else if (numofday == 4) Console.WriteLine(4);
+//else if (numofday == 5) Console.WriteLine(5);
+//else if (numofday == 6) Console.WriteLine(6);
+//else if (numofday == 7) Console.WriteLine(7);
+//else Console.WriteLine("enter invaild number !!!!");
+#endregion
+#region Double
 
 //Console.Write("Enter 1st Number: ");
 //double Number2 = double.Parse(Console.ReadLine());
