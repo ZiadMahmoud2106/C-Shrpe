@@ -1,18 +1,19 @@
 ﻿
+Console.WriteLine();
 
+#region Array
 
+//int[] num = new int[500];
 
-int[] num = new int[500];
+//for (int i = 0; i < 500; i++)
+//{
+//	Console.Write(value: $"Enter number {i + 1} : ");
+//	num[i] = int.Parse(Console.ReadLine());
+//}
 
-for (int i = 0; i < 500; i++)
-{
-	Console.Write(value: $"Enter number {i + 1} : ");
-	num[i] = int.Parse(Console.ReadLine());
-}
-
-int sum = 0;
-for (int i = 0; i < 500; i++) sum = sum + num[i];
-Console.WriteLine(sum);
+//int sum = 0;
+//for (int i = 0; i < 500; i++) sum = sum + num[i];
+//Console.WriteLine(sum);
 
 
 
@@ -50,6 +51,7 @@ Console.WriteLine(sum);
 //Console.WriteLine(num[1]);
 
 
+#endregion
 #region Continue && break
 //for (int i = 1; i < 25; i++)
 //{
