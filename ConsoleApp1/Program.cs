@@ -1,5 +1,55 @@
 ﻿
 
+
+
+int[] num = new int[500];
+
+for (int i = 0; i < 500; i++)
+{
+	Console.Write(value: $"Enter number {i + 1} : ");
+	num[i] = int.Parse(Console.ReadLine());
+}
+
+int sum = 0;
+for (int i = 0; i < 500; i++) sum = sum + num[i];
+Console.WriteLine(sum);
+
+
+
+//Console.Write($"Enter number : ");
+//int num1 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num2 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num3 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num4 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num5 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num6 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num7 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num8 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num9 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter number : ");
+//int num10 = int.Parse(Console.ReadLine());
+
+//Console.WriteLine(num10 + num9 + num8 + num7 + num6 + num5 + num4 + num3 + num2 + num1);
+
+
+
+
+
+//Console.Write("Enter number : ");
+//num[0]=int.Parse(Console.ReadLine());
+//Console.WriteLine(num[0]);
+
+//Console.WriteLine(num[1]);
+
+
 #region Continue && break
 //for (int i = 1; i < 25; i++)
 //{
@@ -30,12 +80,6 @@
 
 //}
 #endregion
-
-
-
-
-
-
 #region Math
 
 //Console.WriteLine(Math.Ceiling(2.1));//3
