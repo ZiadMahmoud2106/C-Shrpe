@@ -1,4 +1,42 @@
-﻿#region Math
+﻿
+
+#region Continue && break
+//for (int i = 1; i < 25; i++)
+//{
+//	//if (!(i % 3 == 0 && i % 7 == 0))   //	continue
+//	//	Console.WriteLine(i);
+
+
+//	//if (i % 3 == 0 && i % 7 == 0)
+//	//	continue;
+
+
+//	//if (i % 3 == 0 && i % 7 == 0)
+//	//	break;
+
+
+
+
+//	//if (i % 3 == 0 && i % 7 == 0)
+//	//{
+//	//	continue;
+//	//	Console.WriteLine(22);
+//	//}
+
+//	//if (i % 3 == 0 && i % 7 == 0)
+//	//	continue;
+//	//Console.WriteLine(i);
+
+
+//}
+#endregion
+
+
+
+
+
+
+#region Math
 
 //Console.WriteLine(Math.Ceiling(2.1));//3
 //Console.WriteLine(Math.Ceiling(2.4));//3
