@@ -1,6 +1,88 @@
-﻿
-Console.WriteLine();
+﻿namespace ConsoleApp1
+{
 
+	class Area
+	{
+		//member
+
+		///1- Field 
+		///2- Method  
+		//////////// => static  (  )
+		//////////// => non static (  )
+		///3- Constractor
+		///4- Property
+	
+
+		static void Sum(int num1, int num2) => Console.WriteLine(num1 + num2);
+
+
+
+	}
+	class Emp
+	{
+		void Salary()
+		{
+
+		}
+	}
+	
+
+
+    class Program
+	{
+		static void Main(string[] args)
+		{
+     
+		}
+	}
+}
+
+
+
+#region OverLoding
+//static void Area(int w=5, int h=5) => Console.WriteLine(w * h);
+///// Main 
+//Area(h: 6, w: 10);
+
+
+
+////////////////////////////////////////////////////////////////////
+// static void Area(int w,int h)=> Console.WriteLine(w * h);
+// static void Area(int l)=> Console.WriteLine(l * l);
+// static void Area(double r)=> Console.WriteLine(Math.PI * Math.Pow(r, 2));
+// static void Area(float w, float h) => Console.WriteLine(w * h/2);
+
+///// Main 
+//Area(5,5);
+//Area(5);
+//Area(5.0);
+//Area(5.0f,5.0f);
+
+#endregion
+#region Method
+
+/// => Arrow Function (لو الكود اللي بعد الميثود هيكون سطر واحد بس )
+
+//static void Sum(int num1, int num2) => Console.WriteLine(num1 + num2);
+//static void Sub(int num1, int num2) => Console.WriteLine(num1 - num2);
+//static void Mul(int num1, int num2) => Console.WriteLine(num1 * num2);
+//static void Div(int num1, int num2) => Console.WriteLine(num2 > 0 ? num1 / num2 : throw new DivideByZeroException());
+
+
+//static int Sum(int num1, int num2) => num1 + num2;
+//static int Sub(int num1, int num2) => num1 - num2;
+//static int Mul(int num1, int num2) => num1 * num2;
+//static int Div(int num1, int num2) => num2 > 0 ? num1 / num2 : throw new DivideByZeroException();
+
+////////Main
+//Console.WriteLine(Sum(5, 4));
+//Console.WriteLine(Sub(5, 4));
+//Console.WriteLine(Mul(5, 4));
+//Console.WriteLine(Div(5, 4));
+
+
+
+#endregion
 #region Array
 
 //int[] num = new int[500];
