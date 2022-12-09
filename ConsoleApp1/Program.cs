@@ -1,38 +1,26 @@
-﻿namespace ConsoleApp1
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace ConsoleApp1
 {
 
 	class Area
 	{
 		//member
-
 		///1- Field 
 		///2- Method  
-		//////////// => static  (  )
-		//////////// => non static (  )
 		///3- Constractor
 		///4- Property
 	
-
-		static void Sum(int num1, int num2) => Console.WriteLine(num1 + num2);
-
-
+		
 
 	}
-	class Emp
-	{
-		void Salary()
-		{
-
-		}
-	}
-	
 
 
     class Program
 	{
 		static void Main(string[] args)
 		{
-     
+
 		}
 	}
 }
