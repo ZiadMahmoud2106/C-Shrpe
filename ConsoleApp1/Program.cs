@@ -4,16 +4,89 @@ using System.Runtime.CompilerServices;
 
 namespace ConsoleApp1
 {
+
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			
 		}
 	}
 }
 
 
+
+
+
+#region Inheritance
+//class H
+//{
+//	private int Id { get; set; }
+//	public string Name { get; set; }
+//	public int Age { get; set; }
+//	public string color { get; set; }
+
+//	public virtual void print()
+//	{
+//		Console.WriteLine("H");
+//	}
+//	//public  void print()
+//	//{
+//	//	Console.WriteLine("H");
+//	//}
+
+//}
+//class P : H
+//{
+//	private string eyecolor { get; set; }
+//	public override void print()
+//	{
+//		base.print();
+//		Console.WriteLine("P");
+//	}
+//	//public void print()
+//	//{
+//	//	//base.print();
+//	//	Console.WriteLine("P");
+//	//}
+
+//}
+//class Child : P
+//{
+//	public override void print()
+//	{
+//		base.print();
+//		Console.WriteLine("C");
+//	}
+//	//public void print()
+//	//{
+//	//	base.print();
+//	//	Console.WriteLine("C");
+//	//}
+//	/*
+//	 static void Main(string[] args)
+//	{
+
+//		//Child child = new Child();//HPC
+//		//child.print();//C==>C
+//		//Console.WriteLine("==========================");
+//		//P Pchild = new Child();//HPC
+//		//Pchild.print();//P===>C
+//		//Console.WriteLine("==========================");
+
+//		//H Hchild = new Child();//HPC
+//		//Hchild.print();//H==C
+//		//Console.WriteLine("==========================");
+
+//		//{لو عامل اوفر رايد هياخد الميثود اللي في الابن لو مش عامل هياخد الي ف الاب}
+
+//		H Hchild = new Child();
+//		Hchild.print();//	
+//		P Pchild = new Child();
+//		Pchild.print();// 
+//	}
+//	 */
+//}
+#endregion
 #region Class Area
 class Area
 {
