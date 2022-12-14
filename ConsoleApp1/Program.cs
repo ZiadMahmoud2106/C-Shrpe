@@ -1,32 +1,82 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿
+using ConsoleApp2;
+using System.Runtime.CompilerServices;
 
 namespace ConsoleApp1
 {
-
-	class Area
-	{
-		//member
-		///1- Field 
-		///2- Method  
-		///3- Constractor
-		///4- Property
-	
-		
-
-	}
-
-
-    class Program
+	class Program
 	{
 		static void Main(string[] args)
 		{
-
+			
 		}
 	}
 }
 
 
+#region Class Area
+class Area
+{
+	//	//member
+	//	///1- Field 
+	//	///2- Method  
+	//	///3- Constractor ==> this
+	//	///4- Property
 
+	//	/// Access Modifiers
+
+
+
+
+	//	private  int x;
+
+	//	private string name;
+
+	//	public string Name
+	//	{
+	//		get { return name; }
+	//		set { name = value; }
+	//	}
+	//	/*
+	//	 string fristName
+	//	 public string FristName
+	//	{
+	//		get { return fristName; }
+	//		set { fristName = value; }
+	//	}
+	//	 */
+	//	public string FristName { get; set; }
+
+
+
+
+
+
+	//	public void SetName(string name)=>this.name = name;
+	//	//public void GetName() => Console.WriteLine(name);	
+	//	public string GetName()=> name;
+
+
+
+	//	public void Print() => Console.WriteLine(name+x);  // 11 10
+	//	public Area() {} 
+	//	public Area(string name) => this.name = name;
+	//	public Area(int x,string name) : this(name)=> this.x = x;
+
+	//	///Main{
+	//	//Area area = new Area(10,"11");
+	//	//Area area = new Area("11");
+	//	/*Area a = new Area();
+	//	a.Name = Console.ReadLine();
+	//		Console.WriteLine(a.Name);
+	//		a.FristName = Console.ReadLine();
+	//		Console.WriteLine(a.FristName);
+	//		a.SetName(Console.ReadLine());
+	//		Console.WriteLine(a.GetName());
+	//		//a.Print();*/
+	//	///}
+}
+#endregion
 #region OverLoding
 //static void Area(int w=5, int h=5) => Console.WriteLine(w * h);
 ///// Main 
@@ -51,16 +101,16 @@ namespace ConsoleApp1
 
 /// => Arrow Function (لو الكود اللي بعد الميثود هيكون سطر واحد بس )
 
-//static void Sum(int num1, int num2) => Console.WriteLine(num1 + num2);
-//static void Sub(int num1, int num2) => Console.WriteLine(num1 - num2);
-//static void Mul(int num1, int num2) => Console.WriteLine(num1 * num2);
-//static void Div(int num1, int num2) => Console.WriteLine(num2 > 0 ? num1 / num2 : throw new DivideByZeroException());
+//static void Sum(int name1, int name2) => Console.WriteLine(name1 + name2);
+//static void Sub(int name1, int name2) => Console.WriteLine(name1 - name2);
+//static void Mul(int name1, int name2) => Console.WriteLine(name1 * name2);
+//static void Div(int name1, int name2) => Console.WriteLine(name2 > 0 ? name1 / name2 : throw new DivideByZeroException());
 
 
-//static int Sum(int num1, int num2) => num1 + num2;
-//static int Sub(int num1, int num2) => num1 - num2;
-//static int Mul(int num1, int num2) => num1 * num2;
-//static int Div(int num1, int num2) => num2 > 0 ? num1 / num2 : throw new DivideByZeroException();
+//static int Sum(int name1, int name2) => name1 + name2;
+//static int Sub(int name1, int name2) => name1 - name2;
+//static int Mul(int name1, int name2) => name1 * name2;
+//static int Div(int name1, int name2) => name2 > 0 ? name1 / name2 : throw new DivideByZeroException();
 
 ////////Main
 //Console.WriteLine(Sum(5, 4));
@@ -73,52 +123,52 @@ namespace ConsoleApp1
 #endregion
 #region Array
 
-//int[] num = new int[500];
+//int[] name = new int[500];
 
 //for (int i = 0; i < 500; i++)
 //{
-//	Console.Write(value: $"Enter number {i + 1} : ");
-//	num[i] = int.Parse(Console.ReadLine());
+//	Console.Write(value: $"Enter nameber {i + 1} : ");
+//	name[i] = int.Parse(Console.ReadLine());
 //}
 
 //int sum = 0;
-//for (int i = 0; i < 500; i++) sum = sum + num[i];
+//for (int i = 0; i < 500; i++) sum = sum + name[i];
 //Console.WriteLine(sum);
 
 
 
-//Console.Write($"Enter number : ");
-//int num1 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num2 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num3 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num4 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num5 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num6 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num7 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num8 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num9 = int.Parse(Console.ReadLine());
-//Console.Write($"Enter number : ");
-//int num10 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name1 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name2 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name3 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name4 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name5 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name6 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name7 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name8 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name9 = int.Parse(Console.ReadLine());
+//Console.Write($"Enter nameber : ");
+//int name10 = int.Parse(Console.ReadLine());
 
-//Console.WriteLine(num10 + num9 + num8 + num7 + num6 + num5 + num4 + num3 + num2 + num1);
-
-
+//Console.WriteLine(name10 + name9 + name8 + name7 + name6 + name5 + name4 + name3 + name2 + name1);
 
 
 
-//Console.Write("Enter number : ");
-//num[0]=int.Parse(Console.ReadLine());
-//Console.WriteLine(num[0]);
 
-//Console.WriteLine(num[1]);
+
+//Console.Write("Enter nameber : ");
+//name[0]=int.Parse(Console.ReadLine());
+//Console.WriteLine(name[0]);
+
+//Console.WriteLine(name[1]);
 
 
 #endregion
@@ -232,9 +282,9 @@ namespace ConsoleApp1
 
 #endregion
 #region Switch
-//Console.Write("enter number : ");
-//byte numofday = byte.Parse(Console.ReadLine());
-//switch (numofday)
+//Console.Write("enter nameber : ");
+//byte nameofday = byte.Parse(Console.ReadLine());
+//switch (nameofday)
 //{
 //	case 1: Console.WriteLine("1"); break;
 //	case 2: Console.WriteLine("2"); break;
@@ -243,17 +293,17 @@ namespace ConsoleApp1
 //	case 5: Console.WriteLine("5"); break;
 //	case 6: Console.WriteLine("6"); break;
 //	case 7: Console.WriteLine("7"); break;
-//	default: Console.WriteLine("enter invaild number !!!!"); break;
+//	default: Console.WriteLine("enter invaild nameber !!!!"); break;
 //}
 
-//if (numofday == 1) Console.WriteLine(1);
-//else if (numofday == 2) Console.WriteLine(2);
-//else if (numofday == 3) Console.WriteLine(3);
-//else if (numofday == 4) Console.WriteLine(4);
-//else if (numofday == 5) Console.WriteLine(5);
-//else if (numofday == 6) Console.WriteLine(6);
-//else if (numofday == 7) Console.WriteLine(7);
-//else Console.WriteLine("enter invaild number !!!!");
+//if (nameofday == 1) Console.WriteLine(1);
+//else if (nameofday == 2) Console.WriteLine(2);
+//else if (nameofday == 3) Console.WriteLine(3);
+//else if (nameofday == 4) Console.WriteLine(4);
+//else if (nameofday == 5) Console.WriteLine(5);
+//else if (nameofday == 6) Console.WriteLine(6);
+//else if (nameofday == 7) Console.WriteLine(7);
+//else Console.WriteLine("enter invaild nameber !!!!");
 #endregion
 #region Double
 
@@ -285,43 +335,43 @@ namespace ConsoleApp1
 #region If Math.Max
 
 //Console.Write("Enter Number 1 : ");
-//int num1 = int.Parse(Console.ReadLine());
+//int name1 = int.Parse(Console.ReadLine());
 //Console.Write("Enter Number 2 : ");
-//int num2 = int.Parse(Console.ReadLine());
+//int name2 = int.Parse(Console.ReadLine());
 //Console.Write("Enter Number 3 : ");
-//int num3 = int.Parse(Console.ReadLine());
+//int name3 = int.Parse(Console.ReadLine());
 //Console.Write("Enter Number 4 : ");
-//int num4 = int.Parse(Console.ReadLine());
-//Console.WriteLine(Math.Max(num1,Math.Max(num2,Math.Max(num3,num4))));
+//int name4 = int.Parse(Console.ReadLine());
+//Console.WriteLine(Math.Max(name1,Math.Max(name2,Math.Max(name3,name4))));
 
 
 
 
-//if (num1 % 3 == 0 && num1 % 7 == 0)
-//	Console.WriteLine(num1);
+//if (name1 % 3 == 0 && name1 % 7 == 0)
+//	Console.WriteLine(name1);
 
 
 
 
-//int x=num1 > num2 ? num1: num2>num1?num2:num1;
+//int x=name1 > name2 ? name1: name2>name1?name2:name1;
 //Console.WriteLine(x);
 
 
-//Console.WriteLine(Math.Max(num1,num2));
+//Console.WriteLine(Math.Max(name1,name2));
 
 
 //Console.Write("Enter Number 1 : ");
-//int num1 = int.Parse(Console.ReadLine());
+//int name1 = int.Parse(Console.ReadLine());
 //Console.Write("Enter Number 2 : ");
-//int num2 = int.Parse(Console.ReadLine());
+//int name2 = int.Parse(Console.ReadLine());
 
-//if (num1 > num2)
+//if (name1 > name2)
 //{
-//    Console.WriteLine(num1);
+//    Console.WriteLine(name1);
 //}
-//else if (num1 < num2)
+//else if (name1 < name2)
 //{
-//    Console.WriteLine(num2);
+//    Console.WriteLine(name2);
 //}
 //else
 //{
@@ -330,17 +380,17 @@ namespace ConsoleApp1
 
 
 
-//if (num1 > num2)
+//if (name1 > name2)
 //{
-//	Console.WriteLine(num1);
+//	Console.WriteLine(name1);
 //}
 
-//if (num1 < num2)
+//if (name1 < name2)
 //{
-//	Console.WriteLine(num2);
+//	Console.WriteLine(name2);
 //}
 
-//if (num1 == num2)
+//if (name1 == name2)
 //{
 //	Console.WriteLine("==");
 //}
