@@ -1,14 +1,41 @@
 ﻿
 using ConsoleApp2;
-using System.Runtime.CompilerServices;
 
 namespace ConsoleApp1
 {
+
+	interface IShape
+	{
+		void Area(int h, int w);
+		void Perimeter(params int[] a);
+	}
+
+	class Rectangle : IShape
+	{
+		public void Area(int h, int w) => Console.WriteLine(h * w);
+		public void Perimeter(params int[] a) => Console.WriteLine((a[0] + a[1]) * 2);
+	}
+
+	class Traingle : IShape
+	{
+		public void Area(int h, int w) => Console.WriteLine(h * w / 2);
+
+		public void Perimeter(params int[] a) => Console.WriteLine(a[0] + a[1] + a[2]);
+	}
+
+	class Squre : IShape
+	{
+		public void Area(int h, int w = 0) => Console.WriteLine(h * h);
+		public void Perimeter(params int[] a) => Console.WriteLine(a[0] * 4);
+	}
+
 
 	class Program
 	{
 		static void Main(string[] args)
 		{
+			IShape shape = new Rectangle();
+			shape.Area(5, 1);	
 		}
 	}
 }
